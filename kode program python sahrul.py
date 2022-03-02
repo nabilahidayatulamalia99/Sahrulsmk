@@ -7,21 +7,21 @@ uas = float(input("Masukkan nilai UAS: "))
 nilai =  (0.15 * tugas) + (0.35 * uts) +  (0.50 * uas)
  
 #Menentukan Grade Berdasarkan Nilai Akhir
-if nilai > 80:
+if nilai > 90:
     grade = 'A'
-elif nilai > 70:
+elif nilai > 80:
     grade = 'B'
-elif nilai > 60:
+elif nilai > 70:
     grade = 'C'
-elif nilai > 50:
+elif nilai > 60:
     grade = 'D'
-else:
+elif nilai < 50: 
     grade = 'E'
  
 #Menentukan Status Kelulusan Berdasarkan Nilai Akhir
-if nilai > 60:
+if nilai > 75:
     status = 'Lulus'
-else:
+else: nilai < 75:
     status = 'Tidak Lulus'
  
 #Menampilkan Nilai Akhir, Grade, dan Status Kelulusan

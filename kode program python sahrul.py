@@ -20,9 +20,9 @@ elif nilai < 50:
  
 #Menentukan Status Kelulusan Berdasarkan Nilai Akhir
 if nilai > 75:
-    status = 'Lulus'
+status = 'Lulus'
 else: nilai < 75:
-    status = 'Tidak Lulus'
+ status = 'Tidak Lulus'
  
 #Menampilkan Nilai Akhir, Grade, dan Status Kelulusan
 print('Nilai Akhir: %0.2f' % nilai)

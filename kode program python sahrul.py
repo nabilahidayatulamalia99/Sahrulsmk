@@ -1,7 +1,7 @@
 #Menginput Nilai Tugas, UTS, dan UAS
-tugas = float(input("Masukkan nilai Tugas: "))
-uts = float(input("Masukkan nilai UTS: "))
-uas = float(input("Masukkan nilai UAS: "))
+ tugas = float(input("Masukkan nilai Tugas: "))
+ uts = float(input("Masukkan nilai UTS: "))
+ uas = float(input("Masukkan nilai UAS: "))
  
 #Menghitung Nilai Akhir sesuai dengan Bobot
 nilai =  (0.15 * tugas) + (0.35 * uts) +  (0.50 * uas)

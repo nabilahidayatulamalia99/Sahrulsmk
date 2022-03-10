@@ -8,7 +8,7 @@ nilai =  (0.15 * tugas) + (0.35 * uts) +  (0.50 * uas)
  
 #Menentukan Grade Berdasarkan Nilai Akhir
 if nilai > 90:
-    grade = 'A'
+ grade = 'A'
 elif nilai > 80:
     grade = 'B'
 elif nilai > 70:

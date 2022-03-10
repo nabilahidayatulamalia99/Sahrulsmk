@@ -3,7 +3,7 @@ while pilihan=="y":
     print("""
     ==============================
     
-    Ananda Coffe
+     Ananda Coffe
      List Menu Minuman Kopi 
  
     ==============================
